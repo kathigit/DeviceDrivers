@@ -1,11 +1,11 @@
-CC=gcc -m64
+CC=gcc
 obj-m+= basic_driver.o
 
-KDIR=/lib/modules/6.1.0-rpi7-rpi-v7/build/
+KDIR=/lib/modules/$(shell uname -r)/build/
 
 all:
 	make -C $(KDIR) M=$(shell pwd) modules
 clean:
-	make -c $(KDIR) M=$(shell pwd) clean
+	make -C $(KDIR) M=$(shell pwd) clean
 
 

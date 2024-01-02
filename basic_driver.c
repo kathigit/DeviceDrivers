@@ -10,7 +10,7 @@ static int __init mstart(void) {
 
 
 static void  __exit mend(void) {
-    printk("Exiting the module");
+    printk("Exiting the module\n");
     return;
 }
 
