@@ -1,0 +1,1 @@
+cmd_/home/pi/DeviceDrivers/kthread/kernel_thread.mod := printf '%s\n'   kernel_thread.o | awk '!x[$$0]++ { print("/home/pi/DeviceDrivers/kthread/"$$0) }' > /home/pi/DeviceDrivers/kthread/kernel_thread.mod

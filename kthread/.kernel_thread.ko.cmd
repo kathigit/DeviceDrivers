@@ -1,0 +1,1 @@
+cmd_/home/pi/DeviceDrivers/kthread/kernel_thread.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/pi/DeviceDrivers/kthread/kernel_thread.ko /home/pi/DeviceDrivers/kthread/kernel_thread.o /home/pi/DeviceDrivers/kthread/kernel_thread.mod.o;  true
