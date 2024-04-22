@@ -1,0 +1,1 @@
+cmd_/home/pi/DeviceDrivers/char_driver/char_driver.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/pi/DeviceDrivers/char_driver/char_driver.ko /home/pi/DeviceDrivers/char_driver/char_driver.o /home/pi/DeviceDrivers/char_driver/char_driver.mod.o;  true
