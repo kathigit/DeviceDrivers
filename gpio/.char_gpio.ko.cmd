@@ -1,0 +1,1 @@
+cmd_/home/pi/DeviceDrivers/gpio/char_gpio.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/pi/DeviceDrivers/gpio/char_gpio.ko /home/pi/DeviceDrivers/gpio/char_gpio.o /home/pi/DeviceDrivers/gpio/char_gpio.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/pi/DeviceDrivers/gpio/Module.symvers :=  sed 's/ko$$/o/'  /home/pi/DeviceDrivers/gpio/modules.order | scripts/mod/modpost -m -a    -o /home/pi/DeviceDrivers/gpio/Module.symvers -e -i Module.symvers -T - 
