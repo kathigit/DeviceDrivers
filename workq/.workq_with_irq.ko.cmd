@@ -1,0 +1,1 @@
+cmd_/home/pi/DeviceDrivers/workq/workq_with_irq.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/pi/DeviceDrivers/workq/workq_with_irq.ko /home/pi/DeviceDrivers/workq/workq_with_irq.o /home/pi/DeviceDrivers/workq/workq_with_irq.mod.o;  true

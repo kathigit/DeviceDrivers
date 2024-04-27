@@ -1,0 +1,1 @@
+cmd_/home/pi/DeviceDrivers/workq/workq_with_irq.mod := printf '%s\n'   workq_with_irq.o | awk '!x[$$0]++ { print("/home/pi/DeviceDrivers/workq/"$$0) }' > /home/pi/DeviceDrivers/workq/workq_with_irq.mod
