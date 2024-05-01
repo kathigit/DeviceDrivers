@@ -1,0 +1,1 @@
+cmd_/home/pi/DeviceDrivers/waitq/waitq_ex.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/pi/DeviceDrivers/waitq/waitq_ex.ko /home/pi/DeviceDrivers/waitq/waitq_ex.o /home/pi/DeviceDrivers/waitq/waitq_ex.mod.o;  true
