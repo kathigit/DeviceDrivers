@@ -1,0 +1,1 @@
+cmd_/home/pi/DeviceDrivers/timer/timer_ex.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/pi/DeviceDrivers/timer/timer_ex.ko /home/pi/DeviceDrivers/timer/timer_ex.o /home/pi/DeviceDrivers/timer/timer_ex.mod.o;  true
