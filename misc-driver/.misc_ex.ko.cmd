@@ -1,0 +1,1 @@
+cmd_/home/pi/DeviceDrivers/misc-driver/misc_ex.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/pi/DeviceDrivers/misc-driver/misc_ex.ko /home/pi/DeviceDrivers/misc-driver/misc_ex.o /home/pi/DeviceDrivers/misc-driver/misc_ex.mod.o;  true
